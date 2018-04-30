@@ -14,7 +14,7 @@ echo "请输入你的内网ip"
 read -p "内网ip： " ip
 cp /root/yijian/restart.sh /root/restart.sh
 chmod +x restart.sh
-wget --no-check-certificate -O shadowsocks-all.sh https://github.com/hjhpjj666/yijian/shadowsocks-all.sh
+wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
