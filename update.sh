@@ -12,7 +12,7 @@ echo "即将搭建的是4.30版本"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/winnerpubg/restart.sh /root/restart.sh
+cp /root/yijian/restart.sh /root/restart.sh
 chmod +x restart.sh
 wget --no-check-certificate -O shadowsocks-all.sh https://github.com/hjhpjj666/yijian/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
